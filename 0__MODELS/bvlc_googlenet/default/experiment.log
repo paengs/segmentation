@@ -3111,3 +3111,354 @@ I1019 18:14:14.241268 22095 solver.cpp:573] Iteration 0, lr = 0.01
 I1019 18:15:29.689359 22095 solver.cpp:242] Iteration 20, loss = 2.84037
 I1019 18:15:29.689474 22095 solver.cpp:258]     Train net output #0: loss = 2.84037 (* 1 = 2.84037 loss)
 I1019 18:15:30.100911 22095 solver.cpp:573] Iteration 20, lr = 0.01
+I1019 18:16:45.774698 22095 solver.cpp:242] Iteration 40, loss = 2.72472
+I1019 18:16:45.774865 22095 solver.cpp:258]     Train net output #0: loss = 2.72472 (* 1 = 2.72472 loss)
+I1019 18:16:46.209862 22095 solver.cpp:573] Iteration 40, lr = 0.01
+I1019 18:17:59.449595 22095 solver.cpp:242] Iteration 60, loss = 2.66475
+I1019 18:17:59.449740 22095 solver.cpp:258]     Train net output #0: loss = 2.66475 (* 1 = 2.66475 loss)
+I1019 18:17:59.714329 22095 solver.cpp:573] Iteration 60, lr = 0.01
+I1019 18:19:12.968408 22095 solver.cpp:242] Iteration 80, loss = 2.15091
+I1019 18:19:12.968547 22095 solver.cpp:258]     Train net output #0: loss = 2.15091 (* 1 = 2.15091 loss)
+I1019 18:19:13.233213 22095 solver.cpp:573] Iteration 80, lr = 0.01
+I1019 18:20:26.638783 22095 solver.cpp:242] Iteration 100, loss = 2.51236
+I1019 18:20:26.638931 22095 solver.cpp:258]     Train net output #0: loss = 2.51236 (* 1 = 2.51236 loss)
+I1019 18:20:26.906024 22095 solver.cpp:573] Iteration 100, lr = 0.01
+I1019 18:21:40.132307 22095 solver.cpp:242] Iteration 120, loss = 2.33534
+I1019 18:21:40.132429 22095 solver.cpp:258]     Train net output #0: loss = 2.33534 (* 1 = 2.33534 loss)
+I1019 18:21:40.391589 22095 solver.cpp:573] Iteration 120, lr = 0.01
+I1019 18:22:53.593905 22095 solver.cpp:242] Iteration 140, loss = 2.29456
+I1019 18:22:53.594019 22095 solver.cpp:258]     Train net output #0: loss = 2.29456 (* 1 = 2.29456 loss)
+I1019 18:22:53.855999 22095 solver.cpp:573] Iteration 140, lr = 0.01
+I1019 18:24:07.200325 22095 solver.cpp:242] Iteration 160, loss = 1.76996
+I1019 18:24:07.200464 22095 solver.cpp:258]     Train net output #0: loss = 1.76996 (* 1 = 1.76996 loss)
+I1019 18:24:07.634718 22095 solver.cpp:573] Iteration 160, lr = 0.01
+I1019 18:25:20.834015 22095 solver.cpp:242] Iteration 180, loss = 2.38975
+I1019 18:25:20.834189 22095 solver.cpp:258]     Train net output #0: loss = 2.38975 (* 1 = 2.38975 loss)
+I1019 18:25:21.096086 22095 solver.cpp:573] Iteration 180, lr = 0.01
+I1019 18:26:34.310613 22095 solver.cpp:242] Iteration 200, loss = 2.25132
+I1019 18:26:34.310726 22095 solver.cpp:258]     Train net output #0: loss = 2.25132 (* 1 = 2.25132 loss)
+I1019 18:26:34.575343 22095 solver.cpp:573] Iteration 200, lr = 0.01
+I1019 18:27:48.234670 22095 solver.cpp:242] Iteration 220, loss = 1.94251
+I1019 18:27:48.234797 22095 solver.cpp:258]     Train net output #0: loss = 1.94251 (* 1 = 1.94251 loss)
+I1019 18:27:48.502722 22095 solver.cpp:573] Iteration 220, lr = 0.01
+I1019 18:29:01.706389 22095 solver.cpp:242] Iteration 240, loss = 1.21021
+I1019 18:29:01.706526 22095 solver.cpp:258]     Train net output #0: loss = 1.21021 (* 1 = 1.21021 loss)
+I1019 18:29:01.974302 22095 solver.cpp:573] Iteration 240, lr = 0.01
+I1019 18:30:15.182087 22095 solver.cpp:242] Iteration 260, loss = 1.32193
+I1019 18:30:15.182358 22095 solver.cpp:258]     Train net output #0: loss = 1.32193 (* 1 = 1.32193 loss)
+I1019 18:30:15.446527 22095 solver.cpp:573] Iteration 260, lr = 0.01
+I1019 18:31:28.677665 22095 solver.cpp:242] Iteration 280, loss = 1.56129
+I1019 18:31:28.677804 22095 solver.cpp:258]     Train net output #0: loss = 1.56129 (* 1 = 1.56129 loss)
+I1019 18:31:28.943291 22095 solver.cpp:573] Iteration 280, lr = 0.01
+I1019 18:32:39.274843 22095 solver.cpp:451] Snapshotting to binary proto file 0__MODELS/bvlc_googlenet/default/ft_models/seg_voc_12_iter_300.caffemodel
+I1019 18:32:39.746649 22095 solver.cpp:736] Snapshotting solver state to binary proto file 0__MODELS/bvlc_googlenet/default/ft_models/seg_voc_12_iter_300.solverstate
+I1019 18:32:43.292373 22095 solver.cpp:242] Iteration 300, loss = 1.27964
+I1019 18:32:43.292440 22095 solver.cpp:258]     Train net output #0: loss = 1.27964 (* 1 = 1.27964 loss)
+I1019 18:32:43.739130 22095 solver.cpp:573] Iteration 300, lr = 0.01
+I1019 18:34:00.364001 22095 solver.cpp:242] Iteration 320, loss = 0.86674
+I1019 18:34:00.364132 22095 solver.cpp:258]     Train net output #0: loss = 0.86674 (* 1 = 0.86674 loss)
+I1019 18:34:00.802598 22095 solver.cpp:573] Iteration 320, lr = 0.01
+I1019 18:35:17.235955 22095 solver.cpp:242] Iteration 340, loss = 1.53074
+I1019 18:35:17.236083 22095 solver.cpp:258]     Train net output #0: loss = 1.53074 (* 1 = 1.53074 loss)
+I1019 18:35:17.693471 22095 solver.cpp:573] Iteration 340, lr = 0.01
+I1019 18:36:34.339946 22095 solver.cpp:242] Iteration 360, loss = 1.5719
+I1019 18:36:34.340075 22095 solver.cpp:258]     Train net output #0: loss = 1.5719 (* 1 = 1.5719 loss)
+I1019 18:36:34.794467 22095 solver.cpp:573] Iteration 360, lr = 0.01
+I1019 18:37:51.391366 22095 solver.cpp:242] Iteration 380, loss = 1.13872
+I1019 18:37:51.391490 22095 solver.cpp:258]     Train net output #0: loss = 1.13872 (* 1 = 1.13872 loss)
+I1019 18:37:51.831382 22095 solver.cpp:573] Iteration 380, lr = 0.01
+I1019 18:39:08.459568 22095 solver.cpp:242] Iteration 400, loss = 0.971719
+I1019 18:39:08.459703 22095 solver.cpp:258]     Train net output #0: loss = 0.971719 (* 1 = 0.971719 loss)
+I1019 18:39:08.901423 22095 solver.cpp:573] Iteration 400, lr = 0.01
+I1019 18:40:25.464584 22095 solver.cpp:242] Iteration 420, loss = 0.776054
+I1019 18:40:25.464714 22095 solver.cpp:258]     Train net output #0: loss = 0.776054 (* 1 = 0.776054 loss)
+I1019 18:40:25.911331 22095 solver.cpp:573] Iteration 420, lr = 0.01
+I1019 18:41:42.531247 22095 solver.cpp:242] Iteration 440, loss = 0.961848
+I1019 18:41:42.531383 22095 solver.cpp:258]     Train net output #0: loss = 0.961848 (* 1 = 0.961848 loss)
+I1019 18:41:42.968962 22095 solver.cpp:573] Iteration 440, lr = 0.01
+I1019 18:42:59.588886 22095 solver.cpp:242] Iteration 460, loss = 0.650637
+I1019 18:42:59.589022 22095 solver.cpp:258]     Train net output #0: loss = 0.650637 (* 1 = 0.650637 loss)
+I1019 18:43:00.027884 22095 solver.cpp:573] Iteration 460, lr = 0.01
+I1019 18:44:16.551930 22095 solver.cpp:242] Iteration 480, loss = 0.553247
+I1019 18:44:16.552069 22095 solver.cpp:258]     Train net output #0: loss = 0.553247 (* 1 = 0.553247 loss)
+I1019 18:44:17.013746 22095 solver.cpp:573] Iteration 480, lr = 0.01
+I1019 18:45:33.607844 22095 solver.cpp:242] Iteration 500, loss = 0.944478
+I1019 18:45:33.607975 22095 solver.cpp:258]     Train net output #0: loss = 0.944478 (* 1 = 0.944478 loss)
+I1019 18:45:34.050112 22095 solver.cpp:573] Iteration 500, lr = 0.01
+I1019 18:46:50.590070 22095 solver.cpp:242] Iteration 520, loss = 1.34488
+I1019 18:46:50.590240 22095 solver.cpp:258]     Train net output #0: loss = 1.34488 (* 1 = 1.34488 loss)
+I1019 18:46:51.028290 22095 solver.cpp:573] Iteration 520, lr = 0.01
+I1019 18:48:07.558559 22095 solver.cpp:242] Iteration 540, loss = 0.768522
+I1019 18:48:07.558723 22095 solver.cpp:258]     Train net output #0: loss = 0.768522 (* 1 = 0.768522 loss)
+I1019 18:48:07.995671 22095 solver.cpp:573] Iteration 540, lr = 0.01
+I1019 18:49:24.529151 22095 solver.cpp:242] Iteration 560, loss = 0.841662
+I1019 18:49:24.529311 22095 solver.cpp:258]     Train net output #0: loss = 0.841662 (* 1 = 0.841662 loss)
+I1019 18:49:24.976876 22095 solver.cpp:573] Iteration 560, lr = 0.01
+I1019 18:50:41.253500 22095 solver.cpp:242] Iteration 580, loss = 0.606448
+I1019 18:50:41.253783 22095 solver.cpp:258]     Train net output #0: loss = 0.606448 (* 1 = 0.606448 loss)
+I1019 18:50:41.696887 22095 solver.cpp:573] Iteration 580, lr = 0.01
+I1019 18:51:54.869977 22095 solver.cpp:451] Snapshotting to binary proto file 0__MODELS/bvlc_googlenet/default/ft_models/seg_voc_12_iter_600.caffemodel
+I1019 18:51:55.274468 22095 solver.cpp:736] Snapshotting solver state to binary proto file 0__MODELS/bvlc_googlenet/default/ft_models/seg_voc_12_iter_600.solverstate
+I1019 18:51:58.822651 22095 solver.cpp:242] Iteration 600, loss = 0.733074
+I1019 18:51:58.822700 22095 solver.cpp:258]     Train net output #0: loss = 0.733074 (* 1 = 0.733074 loss)
+I1019 18:51:59.260355 22095 solver.cpp:573] Iteration 600, lr = 0.01
+I1019 18:53:15.645314 22095 solver.cpp:242] Iteration 620, loss = 0.566393
+I1019 18:53:15.645443 22095 solver.cpp:258]     Train net output #0: loss = 0.566393 (* 1 = 0.566393 loss)
+I1019 18:53:16.080493 22095 solver.cpp:573] Iteration 620, lr = 0.01
+I1019 18:54:32.614140 22095 solver.cpp:242] Iteration 640, loss = 0.410509
+I1019 18:54:32.614300 22095 solver.cpp:258]     Train net output #0: loss = 0.410509 (* 1 = 0.410509 loss)
+I1019 18:54:33.052711 22095 solver.cpp:573] Iteration 640, lr = 0.01
+I1019 18:55:49.631990 22095 solver.cpp:242] Iteration 660, loss = 0.71247
+I1019 18:55:49.632119 22095 solver.cpp:258]     Train net output #0: loss = 0.71247 (* 1 = 0.71247 loss)
+I1019 18:55:50.075065 22095 solver.cpp:573] Iteration 660, lr = 0.01
+I1019 18:57:06.633332 22095 solver.cpp:242] Iteration 680, loss = 0.852363
+I1019 18:57:06.633472 22095 solver.cpp:258]     Train net output #0: loss = 0.852363 (* 1 = 0.852363 loss)
+I1019 18:57:07.076565 22095 solver.cpp:573] Iteration 680, lr = 0.01
+I1019 18:58:23.645622 22095 solver.cpp:242] Iteration 700, loss = 0.788803
+I1019 18:58:23.645756 22095 solver.cpp:258]     Train net output #0: loss = 0.788803 (* 1 = 0.788803 loss)
+I1019 18:58:24.083287 22095 solver.cpp:573] Iteration 700, lr = 0.01
+I1019 18:59:40.645529 22095 solver.cpp:242] Iteration 720, loss = 0.609387
+I1019 18:59:40.645681 22095 solver.cpp:258]     Train net output #0: loss = 0.609387 (* 1 = 0.609387 loss)
+I1019 18:59:41.075383 22095 solver.cpp:573] Iteration 720, lr = 0.01
+I1019 19:00:57.673542 22095 solver.cpp:242] Iteration 740, loss = 0.545296
+I1019 19:00:57.673672 22095 solver.cpp:258]     Train net output #0: loss = 0.545296 (* 1 = 0.545296 loss)
+I1019 19:00:58.113852 22095 solver.cpp:573] Iteration 740, lr = 0.01
+I1019 19:02:14.731966 22095 solver.cpp:242] Iteration 760, loss = 0.952084
+I1019 19:02:14.732089 22095 solver.cpp:258]     Train net output #0: loss = 0.952084 (* 1 = 0.952084 loss)
+I1019 19:02:15.172906 22095 solver.cpp:573] Iteration 760, lr = 0.001
+I1019 19:03:31.697978 22095 solver.cpp:242] Iteration 780, loss = 0.429503
+I1019 19:03:31.698109 22095 solver.cpp:258]     Train net output #0: loss = 0.429503 (* 1 = 0.429503 loss)
+I1019 19:03:32.139574 22095 solver.cpp:573] Iteration 780, lr = 0.001
+I1019 19:04:48.706151 22095 solver.cpp:242] Iteration 800, loss = 0.323692
+I1019 19:04:48.706281 22095 solver.cpp:258]     Train net output #0: loss = 0.323692 (* 1 = 0.323692 loss)
+I1019 19:04:49.149091 22095 solver.cpp:573] Iteration 800, lr = 0.001
+I1019 19:06:05.705960 22095 solver.cpp:242] Iteration 820, loss = 0.653055
+I1019 19:06:05.706080 22095 solver.cpp:258]     Train net output #0: loss = 0.653055 (* 1 = 0.653055 loss)
+I1019 19:06:06.148542 22095 solver.cpp:573] Iteration 820, lr = 0.001
+I1019 19:07:22.734922 22095 solver.cpp:242] Iteration 840, loss = 0.786804
+I1019 19:07:22.735051 22095 solver.cpp:258]     Train net output #0: loss = 0.786804 (* 1 = 0.786804 loss)
+I1019 19:07:23.177700 22095 solver.cpp:573] Iteration 840, lr = 0.001
+I1019 19:08:39.685029 22095 solver.cpp:242] Iteration 860, loss = 0.506226
+I1019 19:08:39.685163 22095 solver.cpp:258]     Train net output #0: loss = 0.506226 (* 1 = 0.506226 loss)
+I1019 19:08:40.125139 22095 solver.cpp:573] Iteration 860, lr = 0.001
+I1019 19:09:56.665237 22095 solver.cpp:242] Iteration 880, loss = 0.552722
+I1019 19:09:56.665464 22095 solver.cpp:258]     Train net output #0: loss = 0.552722 (* 1 = 0.552722 loss)
+I1019 19:09:57.108793 22095 solver.cpp:573] Iteration 880, lr = 0.001
+I1019 19:11:10.230026 22095 solver.cpp:451] Snapshotting to binary proto file 0__MODELS/bvlc_googlenet/default/ft_models/seg_voc_12_iter_900.caffemodel
+I1019 19:11:10.614720 22095 solver.cpp:736] Snapshotting solver state to binary proto file 0__MODELS/bvlc_googlenet/default/ft_models/seg_voc_12_iter_900.solverstate
+I1019 19:11:14.158229 22095 solver.cpp:242] Iteration 900, loss = 0.547995
+I1019 19:11:14.158282 22095 solver.cpp:258]     Train net output #0: loss = 0.547995 (* 1 = 0.547995 loss)
+I1019 19:11:14.607707 22095 solver.cpp:573] Iteration 900, lr = 0.001
+I1019 19:12:31.170634 22095 solver.cpp:242] Iteration 920, loss = 0.669177
+I1019 19:12:31.170799 22095 solver.cpp:258]     Train net output #0: loss = 0.669177 (* 1 = 0.669177 loss)
+I1019 19:12:31.615310 22095 solver.cpp:573] Iteration 920, lr = 0.001
+I1019 19:13:48.163039 22095 solver.cpp:242] Iteration 940, loss = 0.427785
+I1019 19:13:48.163199 22095 solver.cpp:258]     Train net output #0: loss = 0.427785 (* 1 = 0.427785 loss)
+I1019 19:13:48.604972 22095 solver.cpp:573] Iteration 940, lr = 0.001
+I1019 19:15:05.161362 22095 solver.cpp:242] Iteration 960, loss = 0.327638
+I1019 19:15:05.161481 22095 solver.cpp:258]     Train net output #0: loss = 0.327638 (* 1 = 0.327638 loss)
+I1019 19:15:05.605787 22095 solver.cpp:573] Iteration 960, lr = 0.001
+I1019 19:16:22.150297 22095 solver.cpp:242] Iteration 980, loss = 0.58765
+I1019 19:16:22.150425 22095 solver.cpp:258]     Train net output #0: loss = 0.58765 (* 1 = 0.58765 loss)
+I1019 19:16:22.595041 22095 solver.cpp:573] Iteration 980, lr = 0.001
+I1019 19:17:39.100082 22095 solver.cpp:242] Iteration 1000, loss = 0.688712
+I1019 19:17:39.100214 22095 solver.cpp:258]     Train net output #0: loss = 0.688712 (* 1 = 0.688712 loss)
+I1019 19:17:39.530813 22095 solver.cpp:573] Iteration 1000, lr = 0.001
+I1019 19:18:56.036962 22095 solver.cpp:242] Iteration 1020, loss = 0.482073
+I1019 19:18:56.037096 22095 solver.cpp:258]     Train net output #0: loss = 0.482073 (* 1 = 0.482073 loss)
+I1019 19:18:56.482058 22095 solver.cpp:573] Iteration 1020, lr = 0.001
+I1019 19:20:13.035756 22095 solver.cpp:242] Iteration 1040, loss = 0.506115
+I1019 19:20:13.035881 22095 solver.cpp:258]     Train net output #0: loss = 0.506115 (* 1 = 0.506115 loss)
+I1019 19:20:13.477046 22095 solver.cpp:573] Iteration 1040, lr = 0.001
+I1019 19:21:30.009315 22095 solver.cpp:242] Iteration 1060, loss = 0.597947
+I1019 19:21:30.009444 22095 solver.cpp:258]     Train net output #0: loss = 0.597947 (* 1 = 0.597947 loss)
+I1019 19:21:30.453385 22095 solver.cpp:573] Iteration 1060, lr = 0.001
+I1019 19:22:46.998878 22095 solver.cpp:242] Iteration 1080, loss = 0.636945
+I1019 19:22:46.999004 22095 solver.cpp:258]     Train net output #0: loss = 0.636945 (* 1 = 0.636945 loss)
+I1019 19:22:47.441891 22095 solver.cpp:573] Iteration 1080, lr = 0.001
+I1019 19:24:04.025195 22095 solver.cpp:242] Iteration 1100, loss = 0.43396
+I1019 19:24:04.025321 22095 solver.cpp:258]     Train net output #0: loss = 0.43396 (* 1 = 0.43396 loss)
+I1019 19:24:04.471884 22095 solver.cpp:573] Iteration 1100, lr = 0.001
+I1019 19:25:21.032199 22095 solver.cpp:242] Iteration 1120, loss = 0.341706
+I1019 19:25:21.032327 22095 solver.cpp:258]     Train net output #0: loss = 0.341706 (* 1 = 0.341706 loss)
+I1019 19:25:21.476990 22095 solver.cpp:573] Iteration 1120, lr = 0.001
+I1019 19:26:38.019840 22095 solver.cpp:242] Iteration 1140, loss = 0.521587
+I1019 19:26:38.019964 22095 solver.cpp:258]     Train net output #0: loss = 0.521587 (* 1 = 0.521587 loss)
+I1019 19:26:38.451881 22095 solver.cpp:573] Iteration 1140, lr = 0.001
+I1019 19:27:55.030138 22095 solver.cpp:242] Iteration 1160, loss = 0.642632
+I1019 19:27:55.030267 22095 solver.cpp:258]     Train net output #0: loss = 0.642632 (* 1 = 0.642632 loss)
+I1019 19:27:55.479693 22095 solver.cpp:573] Iteration 1160, lr = 0.001
+I1019 19:29:12.018837 22095 solver.cpp:242] Iteration 1180, loss = 0.490255
+I1019 19:29:12.019063 22095 solver.cpp:258]     Train net output #0: loss = 0.490255 (* 1 = 0.490255 loss)
+I1019 19:29:12.457217 22095 solver.cpp:573] Iteration 1180, lr = 0.001
+I1019 19:30:25.526315 22095 solver.cpp:451] Snapshotting to binary proto file 0__MODELS/bvlc_googlenet/default/ft_models/seg_voc_12_iter_1200.caffemodel
+I1019 19:30:25.928958 22095 solver.cpp:736] Snapshotting solver state to binary proto file 0__MODELS/bvlc_googlenet/default/ft_models/seg_voc_12_iter_1200.solverstate
+I1019 19:30:29.472725 22095 solver.cpp:242] Iteration 1200, loss = 0.485901
+I1019 19:30:29.472770 22095 solver.cpp:258]     Train net output #0: loss = 0.485901 (* 1 = 0.485901 loss)
+I1019 19:30:29.912838 22095 solver.cpp:573] Iteration 1200, lr = 0.001
+I1019 19:31:46.483885 22095 solver.cpp:242] Iteration 1220, loss = 0.607408
+I1019 19:31:46.483999 22095 solver.cpp:258]     Train net output #0: loss = 0.607408 (* 1 = 0.607408 loss)
+I1019 19:31:46.923028 22095 solver.cpp:573] Iteration 1220, lr = 0.001
+I1019 19:33:03.502492 22095 solver.cpp:242] Iteration 1240, loss = 0.628008
+I1019 19:33:03.502672 22095 solver.cpp:258]     Train net output #0: loss = 0.628008 (* 1 = 0.628008 loss)
+I1019 19:33:03.947819 22095 solver.cpp:573] Iteration 1240, lr = 0.001
+I1019 19:34:20.484467 22095 solver.cpp:242] Iteration 1260, loss = 0.451011
+I1019 19:34:20.484597 22095 solver.cpp:258]     Train net output #0: loss = 0.451011 (* 1 = 0.451011 loss)
+I1019 19:34:20.926262 22095 solver.cpp:573] Iteration 1260, lr = 0.001
+I1019 19:35:37.463898 22095 solver.cpp:242] Iteration 1280, loss = 0.357997
+I1019 19:35:37.464021 22095 solver.cpp:258]     Train net output #0: loss = 0.357997 (* 1 = 0.357997 loss)
+I1019 19:35:37.898712 22095 solver.cpp:573] Iteration 1280, lr = 0.001
+I1019 19:36:54.420855 22095 solver.cpp:242] Iteration 1300, loss = 0.501629
+I1019 19:36:54.420984 22095 solver.cpp:258]     Train net output #0: loss = 0.501629 (* 1 = 0.501629 loss)
+I1019 19:36:54.863137 22095 solver.cpp:573] Iteration 1300, lr = 0.001
+I1019 19:38:11.394906 22095 solver.cpp:242] Iteration 1320, loss = 0.605583
+I1019 19:38:11.395033 22095 solver.cpp:258]     Train net output #0: loss = 0.605583 (* 1 = 0.605583 loss)
+I1019 19:38:11.830039 22095 solver.cpp:573] Iteration 1320, lr = 0.001
+I1019 19:39:28.350627 22095 solver.cpp:242] Iteration 1340, loss = 0.456885
+I1019 19:39:28.350749 22095 solver.cpp:258]     Train net output #0: loss = 0.456885 (* 1 = 0.456885 loss)
+I1019 19:39:28.790447 22095 solver.cpp:573] Iteration 1340, lr = 0.001
+I1019 19:40:45.305009 22095 solver.cpp:242] Iteration 1360, loss = 0.459625
+I1019 19:40:45.305138 22095 solver.cpp:258]     Train net output #0: loss = 0.459625 (* 1 = 0.459625 loss)
+I1019 19:40:45.740262 22095 solver.cpp:573] Iteration 1360, lr = 0.001
+I1019 19:42:02.250206 22095 solver.cpp:242] Iteration 1380, loss = 0.601822
+I1019 19:42:02.250367 22095 solver.cpp:258]     Train net output #0: loss = 0.601822 (* 1 = 0.601822 loss)
+I1019 19:42:02.682821 22095 solver.cpp:573] Iteration 1380, lr = 0.001
+I1019 19:43:19.208712 22095 solver.cpp:242] Iteration 1400, loss = 0.611789
+I1019 19:43:19.208842 22095 solver.cpp:258]     Train net output #0: loss = 0.611789 (* 1 = 0.611789 loss)
+I1019 19:43:19.650604 22095 solver.cpp:573] Iteration 1400, lr = 0.001
+I1019 19:44:36.110754 22095 solver.cpp:242] Iteration 1420, loss = 0.413719
+I1019 19:44:36.110875 22095 solver.cpp:258]     Train net output #0: loss = 0.413719 (* 1 = 0.413719 loss)
+I1019 19:44:36.548183 22095 solver.cpp:573] Iteration 1420, lr = 0.001
+I1019 19:45:52.995358 22095 solver.cpp:242] Iteration 1440, loss = 0.355571
+I1019 19:45:52.995491 22095 solver.cpp:258]     Train net output #0: loss = 0.355571 (* 1 = 0.355571 loss)
+I1019 19:45:53.443460 22095 solver.cpp:573] Iteration 1440, lr = 0.001
+I1019 19:47:09.940246 22095 solver.cpp:242] Iteration 1460, loss = 0.513319
+I1019 19:47:09.940387 22095 solver.cpp:258]     Train net output #0: loss = 0.513319 (* 1 = 0.513319 loss)
+I1019 19:47:10.385642 22095 solver.cpp:573] Iteration 1460, lr = 0.001
+I1019 19:48:26.890022 22095 solver.cpp:242] Iteration 1480, loss = 0.575855
+I1019 19:48:26.890280 22095 solver.cpp:258]     Train net output #0: loss = 0.575855 (* 1 = 0.575855 loss)
+I1019 19:48:27.323570 22095 solver.cpp:573] Iteration 1480, lr = 0.001
+I1019 19:49:40.422255 22095 solver.cpp:451] Snapshotting to binary proto file 0__MODELS/bvlc_googlenet/default/ft_models/seg_voc_12_iter_1500.caffemodel
+I1019 19:49:40.830821 22095 solver.cpp:736] Snapshotting solver state to binary proto file 0__MODELS/bvlc_googlenet/default/ft_models/seg_voc_12_iter_1500.solverstate
+I1019 19:49:44.366813 22095 solver.cpp:242] Iteration 1500, loss = 0.44288
+I1019 19:49:44.366863 22095 solver.cpp:258]     Train net output #0: loss = 0.44288 (* 1 = 0.44288 loss)
+I1019 19:49:44.816715 22095 solver.cpp:573] Iteration 1500, lr = 0.0001
+I1019 19:51:01.344733 22095 solver.cpp:242] Iteration 1520, loss = 0.513385
+I1019 19:51:01.344861 22095 solver.cpp:258]     Train net output #0: loss = 0.513385 (* 1 = 0.513385 loss)
+I1019 19:51:01.790417 22095 solver.cpp:573] Iteration 1520, lr = 0.0001
+I1019 19:52:18.264447 22095 solver.cpp:242] Iteration 1540, loss = 0.596469
+I1019 19:52:18.264577 22095 solver.cpp:258]     Train net output #0: loss = 0.596469 (* 1 = 0.596469 loss)
+I1019 19:52:18.706676 22095 solver.cpp:573] Iteration 1540, lr = 0.0001
+I1019 19:53:35.271980 22095 solver.cpp:242] Iteration 1560, loss = 0.591293
+I1019 19:53:35.272104 22095 solver.cpp:258]     Train net output #0: loss = 0.591293 (* 1 = 0.591293 loss)
+I1019 19:53:35.707656 22095 solver.cpp:573] Iteration 1560, lr = 0.0001
+I1019 19:54:52.252779 22095 solver.cpp:242] Iteration 1580, loss = 0.47304
+I1019 19:54:52.252903 22095 solver.cpp:258]     Train net output #0: loss = 0.47304 (* 1 = 0.47304 loss)
+I1019 19:54:52.694268 22095 solver.cpp:573] Iteration 1580, lr = 0.0001
+I1019 19:56:09.252590 22095 solver.cpp:242] Iteration 1600, loss = 0.358247
+I1019 19:56:09.252719 22095 solver.cpp:258]     Train net output #0: loss = 0.358247 (* 1 = 0.358247 loss)
+I1019 19:56:09.694834 22095 solver.cpp:573] Iteration 1600, lr = 0.0001
+I1019 19:57:26.196267 22095 solver.cpp:242] Iteration 1620, loss = 0.498605
+I1019 19:57:26.196400 22095 solver.cpp:258]     Train net output #0: loss = 0.498605 (* 1 = 0.498605 loss)
+I1019 19:57:26.650032 22095 solver.cpp:573] Iteration 1620, lr = 0.0001
+I1019 19:58:43.220119 22095 solver.cpp:242] Iteration 1640, loss = 0.600817
+I1019 19:58:43.220248 22095 solver.cpp:258]     Train net output #0: loss = 0.600817 (* 1 = 0.600817 loss)
+I1019 19:58:43.657475 22095 solver.cpp:573] Iteration 1640, lr = 0.0001
+I1019 20:00:00.211571 22095 solver.cpp:242] Iteration 1660, loss = 0.43134
+I1019 20:00:00.211704 22095 solver.cpp:258]     Train net output #0: loss = 0.43134 (* 1 = 0.43134 loss)
+I1019 20:00:00.660259 22095 solver.cpp:573] Iteration 1660, lr = 0.0001
+I1019 20:01:17.193161 22095 solver.cpp:242] Iteration 1680, loss = 0.460468
+I1019 20:01:17.193292 22095 solver.cpp:258]     Train net output #0: loss = 0.460468 (* 1 = 0.460468 loss)
+I1019 20:01:17.619006 22095 solver.cpp:573] Iteration 1680, lr = 0.0001
+I1019 20:02:34.029000 22095 solver.cpp:242] Iteration 1700, loss = 0.612217
+I1019 20:02:34.029182 22095 solver.cpp:258]     Train net output #0: loss = 0.612217 (* 1 = 0.612217 loss)
+I1019 20:02:34.474871 22095 solver.cpp:573] Iteration 1700, lr = 0.0001
+I1019 20:03:51.042444 22095 solver.cpp:242] Iteration 1720, loss = 0.564535
+I1019 20:03:51.042596 22095 solver.cpp:258]     Train net output #0: loss = 0.564535 (* 1 = 0.564535 loss)
+I1019 20:03:51.482846 22095 solver.cpp:573] Iteration 1720, lr = 0.0001
+I1019 20:05:08.044497 22095 solver.cpp:242] Iteration 1740, loss = 0.524035
+I1019 20:05:08.044625 22095 solver.cpp:258]     Train net output #0: loss = 0.524035 (* 1 = 0.524035 loss)
+I1019 20:05:08.490154 22095 solver.cpp:573] Iteration 1740, lr = 0.0001
+I1019 20:06:25.017580 22095 solver.cpp:242] Iteration 1760, loss = 0.405911
+I1019 20:06:25.017832 22095 solver.cpp:258]     Train net output #0: loss = 0.405911 (* 1 = 0.405911 loss)
+I1019 20:06:25.453132 22095 solver.cpp:573] Iteration 1760, lr = 0.0001
+I1019 20:07:41.962831 22095 solver.cpp:242] Iteration 1780, loss = 0.457104
+I1019 20:07:41.963011 22095 solver.cpp:258]     Train net output #0: loss = 0.457104 (* 1 = 0.457104 loss)
+I1019 20:07:42.401798 22095 solver.cpp:573] Iteration 1780, lr = 0.0001
+I1019 20:08:55.525279 22095 solver.cpp:451] Snapshotting to binary proto file 0__MODELS/bvlc_googlenet/default/ft_models/seg_voc_12_iter_1800.caffemodel
+I1019 20:08:55.915820 22095 solver.cpp:736] Snapshotting solver state to binary proto file 0__MODELS/bvlc_googlenet/default/ft_models/seg_voc_12_iter_1800.solverstate
+I1019 20:08:59.456802 22095 solver.cpp:242] Iteration 1800, loss = 0.612483
+I1019 20:08:59.456851 22095 solver.cpp:258]     Train net output #0: loss = 0.612483 (* 1 = 0.612483 loss)
+I1019 20:08:59.896849 22095 solver.cpp:573] Iteration 1800, lr = 0.0001
+I1019 20:10:16.442508 22095 solver.cpp:242] Iteration 1820, loss = 0.403396
+I1019 20:10:16.442667 22095 solver.cpp:258]     Train net output #0: loss = 0.403396 (* 1 = 0.403396 loss)
+I1019 20:10:16.883585 22095 solver.cpp:573] Iteration 1820, lr = 0.0001
+I1019 20:11:33.353185 22095 solver.cpp:242] Iteration 1840, loss = 0.443377
+I1019 20:11:33.353317 22095 solver.cpp:258]     Train net output #0: loss = 0.443377 (* 1 = 0.443377 loss)
+I1019 20:11:33.794607 22095 solver.cpp:573] Iteration 1840, lr = 0.0001
+I1019 20:12:50.302953 22095 solver.cpp:242] Iteration 1860, loss = 0.688007
+I1019 20:12:50.303112 22095 solver.cpp:258]     Train net output #0: loss = 0.688007 (* 1 = 0.688007 loss)
+I1019 20:12:50.737385 22095 solver.cpp:573] Iteration 1860, lr = 0.0001
+I1019 20:14:07.282223 22095 solver.cpp:242] Iteration 1880, loss = 0.633781
+I1019 20:14:07.282379 22095 solver.cpp:258]     Train net output #0: loss = 0.633781 (* 1 = 0.633781 loss)
+I1019 20:14:07.724695 22095 solver.cpp:573] Iteration 1880, lr = 0.0001
+I1019 20:15:24.262456 22095 solver.cpp:242] Iteration 1900, loss = 0.51107
+I1019 20:15:24.262610 22095 solver.cpp:258]     Train net output #0: loss = 0.51107 (* 1 = 0.51107 loss)
+I1019 20:15:24.701704 22095 solver.cpp:573] Iteration 1900, lr = 0.0001
+I1019 20:16:41.248783 22095 solver.cpp:242] Iteration 1920, loss = 0.454207
+I1019 20:16:41.248915 22095 solver.cpp:258]     Train net output #0: loss = 0.454207 (* 1 = 0.454207 loss)
+I1019 20:16:41.678145 22095 solver.cpp:573] Iteration 1920, lr = 0.0001
+I1019 20:17:58.202658 22095 solver.cpp:242] Iteration 1940, loss = 0.513345
+I1019 20:17:58.202785 22095 solver.cpp:258]     Train net output #0: loss = 0.513345 (* 1 = 0.513345 loss)
+I1019 20:17:58.643049 22095 solver.cpp:573] Iteration 1940, lr = 0.0001
+I1019 20:19:15.162648 22095 solver.cpp:242] Iteration 1960, loss = 0.609227
+I1019 20:19:15.162772 22095 solver.cpp:258]     Train net output #0: loss = 0.609227 (* 1 = 0.609227 loss)
+I1019 20:19:15.608245 22095 solver.cpp:573] Iteration 1960, lr = 0.0001
+I1019 20:20:32.075240 22095 solver.cpp:242] Iteration 1980, loss = 0.386092
+I1019 20:20:32.075361 22095 solver.cpp:258]     Train net output #0: loss = 0.386092 (* 1 = 0.386092 loss)
+I1019 20:20:32.500942 22095 solver.cpp:573] Iteration 1980, lr = 0.0001
+I1019 20:21:49.015748 22095 solver.cpp:242] Iteration 2000, loss = 0.457047
+I1019 20:21:49.015873 22095 solver.cpp:258]     Train net output #0: loss = 0.457047 (* 1 = 0.457047 loss)
+I1019 20:21:49.457944 22095 solver.cpp:573] Iteration 2000, lr = 0.0001
+I1019 20:23:06.021225 22095 solver.cpp:242] Iteration 2020, loss = 0.596492
+I1019 20:23:06.021354 22095 solver.cpp:258]     Train net output #0: loss = 0.596492 (* 1 = 0.596492 loss)
+I1019 20:23:06.463479 22095 solver.cpp:573] Iteration 2020, lr = 0.0001
+I1019 20:24:22.995100 22095 solver.cpp:242] Iteration 2040, loss = 0.581084
+I1019 20:24:22.995239 22095 solver.cpp:258]     Train net output #0: loss = 0.581084 (* 1 = 0.581084 loss)
+I1019 20:24:23.431583 22095 solver.cpp:573] Iteration 2040, lr = 0.0001
+I1019 20:25:39.998970 22095 solver.cpp:242] Iteration 2060, loss = 0.545916
+I1019 20:25:39.999234 22095 solver.cpp:258]     Train net output #0: loss = 0.545916 (* 1 = 0.545916 loss)
+I1019 20:25:40.434814 22095 solver.cpp:573] Iteration 2060, lr = 0.0001
+I1019 20:26:56.992669 22095 solver.cpp:242] Iteration 2080, loss = 0.499892
+I1019 20:26:56.992799 22095 solver.cpp:258]     Train net output #0: loss = 0.499892 (* 1 = 0.499892 loss)
+I1019 20:26:57.431320 22095 solver.cpp:573] Iteration 2080, lr = 0.0001
+I1019 20:28:10.540807 22095 solver.cpp:451] Snapshotting to binary proto file 0__MODELS/bvlc_googlenet/default/ft_models/seg_voc_12_iter_2100.caffemodel
+I1019 20:28:10.939059 22095 solver.cpp:736] Snapshotting solver state to binary proto file 0__MODELS/bvlc_googlenet/default/ft_models/seg_voc_12_iter_2100.solverstate
+I1019 20:28:14.482086 22095 solver.cpp:242] Iteration 2100, loss = 0.518432
+I1019 20:28:14.482137 22095 solver.cpp:258]     Train net output #0: loss = 0.518432 (* 1 = 0.518432 loss)
+I1019 20:28:14.928349 22095 solver.cpp:573] Iteration 2100, lr = 0.0001
+I1019 20:29:31.517819 22095 solver.cpp:242] Iteration 2120, loss = 0.645783
+I1019 20:29:31.517942 22095 solver.cpp:258]     Train net output #0: loss = 0.645783 (* 1 = 0.645783 loss)
+I1019 20:29:31.959486 22095 solver.cpp:573] Iteration 2120, lr = 0.0001
+I1019 20:30:48.490401 22095 solver.cpp:242] Iteration 2140, loss = 0.394739
+I1019 20:30:48.490537 22095 solver.cpp:258]     Train net output #0: loss = 0.394739 (* 1 = 0.394739 loss)
+I1019 20:30:48.934573 22095 solver.cpp:573] Iteration 2140, lr = 0.0001
+I1019 20:32:05.430364 22095 solver.cpp:242] Iteration 2160, loss = 0.427871
+I1019 20:32:05.430487 22095 solver.cpp:258]     Train net output #0: loss = 0.427871 (* 1 = 0.427871 loss)
+I1019 20:32:05.868830 22095 solver.cpp:573] Iteration 2160, lr = 0.0001
+I1019 20:33:22.422395 22095 solver.cpp:242] Iteration 2180, loss = 0.569877
+I1019 20:33:22.422514 22095 solver.cpp:258]     Train net output #0: loss = 0.569877 (* 1 = 0.569877 loss)
+I1019 20:33:22.865780 22095 solver.cpp:573] Iteration 2180, lr = 0.0001
+I1019 20:34:39.407305 22095 solver.cpp:242] Iteration 2200, loss = 0.651306
+I1019 20:34:39.407443 22095 solver.cpp:258]     Train net output #0: loss = 0.651306 (* 1 = 0.651306 loss)
+I1019 20:34:39.849365 22095 solver.cpp:573] Iteration 2200, lr = 0.0001
+I1019 20:35:56.445755 22095 solver.cpp:242] Iteration 2220, loss = 0.48168
+I1019 20:35:56.445888 22095 solver.cpp:258]     Train net output #0: loss = 0.48168 (* 1 = 0.48168 loss)
+I1019 20:35:56.882901 22095 solver.cpp:573] Iteration 2220, lr = 0.0001
+I1019 20:37:13.447211 22095 solver.cpp:242] Iteration 2240, loss = 0.491966
+I1019 20:37:13.447336 22095 solver.cpp:258]     Train net output #0: loss = 0.491966 (* 1 = 0.491966 loss)
+I1019 20:37:13.890866 22095 solver.cpp:573] Iteration 2240, lr = 0.0001
+I1019 20:37:48.559489 22095 solver.cpp:451] Snapshotting to binary proto file 0__MODELS/bvlc_googlenet/default/ft_models/seg_voc_12_iter_2250.caffemodel
+I1019 20:37:48.963335 22095 solver.cpp:736] Snapshotting solver state to binary proto file 0__MODELS/bvlc_googlenet/default/ft_models/seg_voc_12_iter_2250.solverstate
+I1019 20:37:49.111549 22095 solver.cpp:331] Optimization Done.
+I1019 20:37:49.485034 22095 caffe.cpp:214] Optimization Done.

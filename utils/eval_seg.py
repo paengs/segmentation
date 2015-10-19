@@ -1,6 +1,6 @@
 import os
 import sys
-sys.path.append('../') # WSL lib denpendancy
+sys.path.append('./') # WSL lib denpendancy
 import lib
 import caffe
 from lib.pascal_db import pascal_db
@@ -12,12 +12,18 @@ import matplotlib.pyplot as plt
 
 
 if __name__ == '__main__' :
-	
+
+	gpu_id = sys.argv[1]
+	arch = sys.argv[2]
+	setting = sys.argv[3]
+
+	# load pascal db
 	pascal = pascal_db('val','2012','/data/PASCAL/VOCdevkit/', 'seg')
-	arch = 'segmentation/stride_80_duplicate'
-	deploy = '../models/' + arch + '/test.prototxt'
-	model  = '../models/' + arch + '/finetuned_models/ftmodels_iter_9000.caffemodel'
-	net = net_wrapper(deploy, model, 3)
+	
+	deploy = './0__MODELS/' + arch + '/' + setting + '/test.prototxt'
+	model  = './0__MODELS/' + arch + '/' + setting + '/ft_models/seg_voc_12_iter_2250.caffemodel'
+	net = net_wrapper(deploy, model, int(gpu_id))
+
 	comp_id = 'comp5'
 	save_path = os.path.join(pascal._devkit_path, 'results', 'VOC' + pascal._year, 'Segmentation', comp_id + '_' + pascal._image_set + '_cls' )
 	if not os.path.exists( save_path ) :

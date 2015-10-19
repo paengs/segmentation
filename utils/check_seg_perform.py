@@ -14,11 +14,9 @@ import matplotlib.pyplot as plt
 if __name__ == '__main__' :
 	
 	pascal = pascal_db('val','2012','/data/PASCAL/VOCdevkit/', 'seg')
-	arch = 'segmentation/stride_80_duplicate'
-	#arch = 'vgg16_conv'
-	deploy = '../models/' + arch + '/test.prototxt'
-	#model  = '../models/' + arch + '/finetuned_models/vgg16_ift_iter_12000.caffemodel'
-	model  = '../models/' + arch + '/finetuned_models/ftmodels_iter_9000.caffemodel'
+	arch = 'bvlc_googlenet/default'
+	deploy = '../0__MODELS/' + arch + '/test.prototxt'
+	model  = '../0__MODELS/' + arch + '/ft_models/seg_voc_12_iter_2250.caffemodel'
 	net = net_wrapper(deploy, model)
 	#net = analyzer(deploy, model)
 
