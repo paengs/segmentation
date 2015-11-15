@@ -59,8 +59,12 @@ def build_label_map_lmdb(db, save_path, im_sz) :
 	Segmentation Map lmdb
 	"""
 	image_list = db._image_index
-	image_path = os.path.join(db._data_path,'SegmentationClass')
-	lmdb_name  = save_path + 'voc_' + db._image_set + '_' + db._year + '_seg_label_map_lmdb_' + str(im_sz)
+	if db._image_set.find('aug') :
+		image_path = os.path.join(db._data_path,'SegmentationClassAug')
+	else :
+		image_path = os.path.join(db._data_path,'SegmentationClass')
+		
+	lmdb_name  = save_path + 'voc_' + db._image_set + '_' + db._year + '_seg_label_map_lmdb' # + str(im_sz)
 	in_db = lmdb.open(lmdb_name, map_size=int(1e12))
 	with in_db.begin(write=True) as in_txn :
 		for in_idx, in_ in enumerate(image_list) :
@@ -133,25 +137,17 @@ def build_seg_exist_label_lmdb(db, save_path) :
 
 
 if __name__ == '__main__' :
-	# lmdb default path : ../lmdb/
-	lmdb_path = '../data/lmdb_seg_stepwise/'
+	lmdb_path = '../1__DATA/lmdb_seg_40/'
 	if not os.path.exists( lmdb_path ) :
 		os.makedirs( lmdb_path )
 	
 	pascal = pascal_db('train','2012','/data/PASCAL/VOCdevkit/', 'seg')
-	build_image_lmdb(pascal, lmdb_path)
-	build_label_lmdb(pascal, lmdb_path)
-	build_label_map_lmdb(pascal, lmdb_path, 10)
-	build_label_map_lmdb(pascal, lmdb_path, 20)
-	build_label_map_lmdb(pascal, lmdb_path, 40)
-	build_label_map_lmdb(pascal, lmdb_path, 80)
-	build_label_map_lmdb(pascal, lmdb_path, 160)
-	build_label_map_lmdb(pascal, lmdb_path, 320)
-	
-	#build_image_lmdb( pascal, lmdb_path )
-	#print 'image lmdb build is finished...'
-	#build_label_lmdb( pascal, lmdb_path )
-	#print 'label lmdb build is finished...'
+	build_image_lmdb( pascal, lmdb_path )
+	print 'image lmdb build is finished...'
+	build_label_lmdb( pascal, lmdb_path )
+	print 'label lmdb build is finished...'
+	build_label_map_lmdb( pascal, lmdb_path, 40 )
+	print 'label map lmdb build is finished...'
 
 	with open(lmdb_path + 'lmdb_path_' + pascal._image_set + '_' + pascal._year + '.txt', 'w') as file:
 		for item in pascal._image_index:

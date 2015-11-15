@@ -1,10 +1,11 @@
-function VOCopts = get_voc_opts(path, dataset, test_set)
+function VOCopts = get_voc_opts(path)
 
 tmp = pwd;
 cd(path);
 try
   addpath('VOCcode');
-  VOCopts = VOCinit(dataset, test_set);
+  %VOCopts = VOCinit;
+  VOCinit;
 catch
   rmpath('VOCcode');
   cd(tmp);

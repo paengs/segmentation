@@ -14,16 +14,17 @@ import matplotlib.pyplot as plt
 if __name__ == '__main__' :
 	
 	pascal = pascal_db('val','2012','/data/PASCAL/VOCdevkit/', 'seg')
-	arch = 'bvlc_googlenet/default'
+	#arch = 'bvlc_googlenet/default'
+	arch = 'vgg16_largeFOV/deeplab_default'
+	#arch = 'vgg16/stride_8_multi_deconv'
 	deploy = '../0__MODELS/' + arch + '/test.prototxt'
-	model  = '../0__MODELS/' + arch + '/ft_models/seg_voc_12_iter_2250.caffemodel'
-	net = net_wrapper(deploy, model)
+	model  = '../0__MODELS/' + arch + '/ft_models/final.caffemodel'
+	net = net_wrapper(deploy, model, 1)
 	#net = analyzer(deploy, model)
 
 	for i, ind in enumerate(pascal._image_index) :
 		image_path = os.path.join( pascal._data_path, 'JPEGImages', ind + pascal._image_ext )
 		net.run_forward(image_path)
-		#res_label = net._output['pool-global']
 		res = net._output['prob']
 		label_map = np.argmax(res[0],axis=0)
 		out_map = np.zeros((label_map.shape[0],label_map.shape[1],3))

@@ -9,13 +9,12 @@ class pascal_db :
 	def __init__(self, image_set, year, devkit_path, task) :
 		if task is not 'seg' and task is not 'cls' :
 			assert 'Not Supported Task'
-			
 		self._year = year
 		self._image_set = image_set
 		self._devkit_path = devkit_path
 		self._task = task
 		self._data_path = os.path.join(self._devkit_path, 'VOC' + self._year)
-		self._color_map = self._load_voc_color_map('/home/paeng/projects/3__WSL/lib/voc_color_map.mat')
+		self._color_map = self._load_voc_color_map(os.path.join(self._devkit_path,'voc_color_map.mat'))
 		self._classes = ('__background__', # always index 0
                          'aeroplane', 'bicycle', 'bird', 'boat',
                          'bottle', 'bus', 'car', 'cat', 'chair',

@@ -1,7 +1,7 @@
 function voc_eval_seg(path, comp_id, year, test_set, output_dir)
 
-dataset = strcat('VOC', year);
-VOCopts = get_voc_opts(path, dataset, test_set);
+%dataset = strcat('VOC', year);
+VOCopts = get_voc_opts(path);
 addpath(fullfile(VOCopts.datadir, 'VOCcode'));
 
 [ acc, avacc, conf, ~ ] = VOCevalseg(VOCopts, comp_id);

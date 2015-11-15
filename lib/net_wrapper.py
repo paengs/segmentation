@@ -21,7 +21,7 @@ class net_wrapper() :
 		self._layers = self._parse_deploy(deploy_prototxt)
 		self._input_dim = np.array( self._net.blobs[self._net_input].data.shape )
 		self._name = os.path.splitext(os.path.basename(caffemodel))[0]
-		self._mean = np.array([104,117,123]) # BGR order ...
+		self._mean = np.array([104.008,116.669,122.675]) # BGR order ...
 
 	def run_forward_for_batch(self, batch) :
 		self._net.blobs[self._net_input].data[...] = batch
