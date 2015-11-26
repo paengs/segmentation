@@ -27,12 +27,13 @@ class net_wrapper() :
 		self._net.blobs[self._net_input].data[...] = batch
 		self._output = self._net.forward() 
 
-	def run_forward(self, image_path) :
+	def run_forward(self, image_path, scale=1) :
 		"""
 		Read a image using PIL library (RGB order!)
 		Must convert BGR order!!
 		"""
-		in_ = self._load_image(image_path)
+		in_ = self._load_image(image_path, scale)
+		self._net.blobs[self._net_input].reshape(*(in_.shape))
 		self._net.blobs[self._net_input].data[...] = in_ 
 		self._output = self._net.forward() 
 
@@ -99,8 +100,8 @@ class net_wrapper() :
 				else :
 					file.write("{}".format(layer))
 			
-	def _load_image(self, image_path, batch_size=1) :
-		image_dim = self._input_dim[2:]
+	def _load_image(self, image_path, scale, batch_size=1) :
+		image_dim = self._input_dim[2:]*scale
 		im = Image.open(image_path)
 		im = np.array(im.resize((image_dim), Image.ANTIALIAS))
 		im = im[:,:,::-1]
