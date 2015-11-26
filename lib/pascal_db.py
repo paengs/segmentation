@@ -21,6 +21,7 @@ class pascal_db :
                          'cow', 'diningtable', 'dog', 'horse',
                          'motorbike', 'person', 'pottedplant',
                          'sheep', 'sofa', 'train', 'tvmonitor')
+		self._subclass = ( [0], [15], [1,2,4,6,7,14,19], [3,8,10,12,13,17], [5,9,11,16,18,20] )
 		self._class_to_ind = dict(zip(self._classes, xrange(len(self._classes))))
 		self._image_ext = '.jpg'
 		self._image_index = self._load_image_set_index()
