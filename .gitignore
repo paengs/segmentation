@@ -55,7 +55,9 @@
 # Data and models are either
 # 1. reference, and not casually committed
 # 2. custom, and live on their own unless they're deliberated contributed
+__BACKUP/*
 1__DATA/*
+lib/VOCdevkit_matlab_wrapper/output/*
 *.caffemodel
 *.caffemodel.h5
 *.solverstate
